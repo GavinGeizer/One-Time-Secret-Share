@@ -15,19 +15,19 @@ go run main.go
 
 
 ## Example
-# POST /secret
+### POST /secret
 
 ```json
 { "secret": "my message" }
 ```
-# Response
+### Response
 
 ```json
 { "id": "your-uuid-here" }
 ```
-# GET /secret/:id
+### GET /secret/:id
 
 ```json
 { "secret": "my message" }
 ```
-# After that, the secret is gone.
+#### After that, the secret is gone.
